@@ -1,0 +1,156 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Ambiente e configurações
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config/local.js
+
+# Banco de dados
+data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploads e arquivos
+uploads/
+!uploads/.gitkeep
+files/
+temp/
+
+# Logs
+logs/
+*.log
+!logs/.gitkeep
+
+# Backups
+backups/
+*.backup
+*.sql
+
+# Coverage e testes
+coverage/
+.nyc_output/
+test-results/
+*.lcov
+
+# Cache
+.cache/
+.tmp/
+.sass-cache/
+
+# Build
+build/
+dist/
+out/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# SSL e certificados
+ssl/
+certificates/
+*.pem
+*.key
+*.crt
+*.cert
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Documentação gerada
+docs/generated/
+api-docs/
+
+# Ferramentas de desenvolvimento
+.eslintcache
+.stylelintcache
+
+# Arquivos de processo
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime
+pids/
+lib-cov/
+
+# Dependências opcionais
+.npm/
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.parcel-cache/
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test/
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Arquivos específicos do projeto
+user-uploads/
+essay-corrections/
+materials-library/
+temp-files/
+processing/
+
+# Chaves de API e tokens
+api-keys.json
+tokens.json
+credentials.json
+
+# Arquivos de migração temporários
+migrations/temp/
+schema-backup/
+
+# Arquivos de relatório
+reports/
+statistics/
+analytics/
+
+# Arquivos de desenvolvimento local
+local-config/
+dev-tools/
+debugging/
+
+# Arquivos de produção sensíveis
+production-config/
+deployment-keys/
+server-config/
+
+# Monitoramento e métricas
+monitoring/
+metrics/
+performance/
